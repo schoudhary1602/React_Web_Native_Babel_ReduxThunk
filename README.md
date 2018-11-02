@@ -42,25 +42,7 @@ For Configuration Email server check for EmailServer.js file and put the credent
 
 
 
-## Directory Structure
-
-###src
-   #### app
-   ##### actions
-   ##### constants
-   ##### reducers
-   ##### store
-   ######  native
-   ####### components
-   ####### containers
-   
-   ###### web
-   ####### components
-   ####### containers
-          
-   #### Index.html
-   #### Index.js
-
+## Directories 
 
 Native folder houses all the mobile side component which will render on any mobile and web folder will contins all the files require for running web application.
 
@@ -74,7 +56,7 @@ The entry point for the iOS/Android app is App.js, and for the web app is src/ap
 
 ## Running applications 
 
-There are 3 defined scripts in [package.json][pg] which are commonly used:
+There are 3 defined scripts in [package.json] which are commonly used:
 
 - start-ios
 - start-android
