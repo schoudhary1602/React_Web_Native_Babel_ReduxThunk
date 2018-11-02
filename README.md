@@ -44,11 +44,28 @@ For Configuration Email server check for EmailServer.js file and put the credent
 
 ## Directory Structure
 
++--src
+   +-- app
+      |-- actions
+      |-- constants
+      |-- reducers
+      |-- store
+      |-- native
+      |   |-- components
+      |   |-- containers
+      |   +-- style
+      +-- web
+          |-- components
+          |-- containers
+          +-- style
+    +--Index.html
+    +--Index.js
+
+
 Native folder houses all the mobile side component which will render on any mobile and web folder will contins all the files require for running web application.
 
 The app itself is based on my React/Webpack/ Redux, for more info on that head over there. The only key difference can be found in app/native, and app/web. What's going on here is both the native app and web app are sharing their core application logic, while keeping the individual rendering separate.
 
-The reasoning for this is twofold - for one, React Native/React wasn't designed to be a "write once, run everywhere" framework. Facebook constantly calls it a "learn once, write everywhere" framework - the idea being that you tailor your implementation to the platform you're writing for. The second is that React Native and React are ultimate... different and the code wouldn't be reusable without some crazy aliases.
 
 ## Entry Points
 
