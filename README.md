@@ -65,10 +65,15 @@ There are 3 defined scripts in [package.json] which are commonly used:
 
 before running any of the application(Web/Native) please run  "npm run install" and then "npm run update" then use any of the above mention commands. 
 
-Please note client App will run on port: 3001 and server will run on port: 3000
 
 
-start-ios and start-android are used when running the native application. When you open either the XCode project or the android studio project and hit "run", it kicks off a node server via the start command. Every time you make a JavaScript change, instead of needing to rebuild and recompile your application, you simply refresh the app and the changes are magically there. As this is not a React Native guide I will not be going into more detail than that - further information can be found on Facebook's React Native Getting Started guide.
+
+start-ios and start-android : are used when running the native application. When you open either the XCode project or the android studio project and hit "run", it kicks off a node server via the start command. Every time you make a JavaScript change, instead of needing to rebuild and recompile your application, you simply refresh the app and the changes are magically there. As this is not a React Native guide I will not be going into more detail.
+
+start-web will kickoff clients web application on port 3001 so you can use http://localhost:3001/ to access the first login page 
+
+## Note 
+Please note client App (Web client App) will run on port: 3001 and Node server will run on port: 3000
 
 
 ## For Node server user 

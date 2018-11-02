@@ -1,0 +1,22 @@
+.labelStyle {
+	font-weight: bold;
+    font-size: medium;
+    padding: 23px;
+    padding-top: 5px;
+}
+.captcha-format{
+	padding: 20px;
+}
+
+.ReactPasswordStrength-strength-desc {
+	width: 35%;
+}
+
+.ReactPasswordStrength {
+	width: 93%
+}  
+.ReactPasswordStrength-input {
+	padding-left: 10px;
+	height: 35px;
+	font-size: 16px;
+}

@@ -1,0 +1,17 @@
+{
+// "presets": ["env", "react"]
+ "presets": [  "module:metro-react-native-babel-preset"]
+}
+//https://stackoverflow.com/questions/34924581/how-do-you-configure-babel-to-run-with-different-configurations-in-different-env
+//https://stackoverflow.com/questions/43735798/how-do-i-pass-environment-variables-to-babelrc
+
+// {
+//   "env": {
+//     "mob": {
+//        "presets": ["module:metro-react-native-babel-preset"]
+//      },
+//     "web": {
+//       "presets": ["env", "react"]
+//     }
+//   }
+// }

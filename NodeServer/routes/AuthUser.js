@@ -1,0 +1,10 @@
+var express = require('express')
+var router = express.Router()
+var authController = require('../controller/AuthenticateUser')
+router.post('/authorize',authController.authenticateUser)
+router.post('/verifyemail',authController.verifyEmail)
+router.get('/verifytoken',authController.checkTokenValidity)
+router.post('/updatepassword',authController.updatePassword)
+router.post('/update',authController.updateUserPassword)
+router.get('/activate',authController.activateUser)
+module.exports = router
